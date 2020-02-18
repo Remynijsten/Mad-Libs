@@ -7,6 +7,7 @@ nav{
 	height: 5vh;
 	width: 100%;
 	background: #0f6858;
+	position: sticky;
 	ul{
 		list-style-type: none;
 		text-align: center;
@@ -22,9 +23,47 @@ nav{
 		}
 	}
 }
+.container{
+	display: block;
+	width: 80vw;
+	margin: 0 auto;
+	border: 2px solid #0a0a0a;
+	padding: 2vw;
+	h1{
+		text-align: center;
+	}
+	.question{
+		width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	    margin-bottom: 2vh;
+	}
+	.answer{
+		width: 40%;
+		text-align: left;
+		display: inline-block;
+	}
+	.btn{
+		background: #0f6858;
+	    color: #b7a873;
+	    display: block;
+	    margin: 0 auto;
+	    height: 4vh;
+	    width: 15vw;
+	    font-size: 2vh;
+	}
+}
+.output{
+	text-align: center;
+	    width: 80vw;
+    margin: 0 auto;
+	p{
+		margin-top: 1vh;
+	}
+}
 footer{
 	    bottom: 0;
-    position: absolute;
+    position: sticky;
     height: 5vh;
     width: 100%;
     background: #0f6858;
